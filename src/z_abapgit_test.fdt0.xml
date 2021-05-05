@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <abapGit version="v1.0.0" serializer="LCL_OBJECT_FDT0" serializer_version="v1.0.0">
- <FDTNS:Fdt xmlns:FDTNS="http://sap.com/fdt/transport" AP="OFF" BRFplusInitialVersion="1.13 " BRFplusSchema="http://sap.corp/fdt/External.xsd" BRFplusVersion="1.13 " Client="001" Date="20210503" EntireApplication="False" SAPRelease="754" Server="vhcala4hci" SourceExportReqID="$X1P0000000000000041" SystemID="A4H" Time="162802" User="DEVELOPER">
+ <FDTNS:Fdt xmlns:FDTNS="http://sap.com/fdt/transport" AP="OFF" BRFplusInitialVersion="1.13 " BRFplusSchema="http://sap.corp/fdt/External.xsd" BRFplusVersion="1.13 " Client="001" Date="20210505" EntireApplication="False" SAPRelease="754" Server="vhcala4hci" SourceExportReqID="$X1P0000000000000048" SystemID="A4H" Time="154658" User="DEVELOPER">
   <FDTNS:ComponentReleases>
    <FDTNS:ComponentRelease>
     <FDTNS:Component>SAP_BASIS</FDTNS:Component>
@@ -59,21 +59,21 @@
     <FDTNS:Name>Z_ABAPGIT_TEST</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154806</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154811</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162510</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172454</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E3418A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4EBA1CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -105,25 +105,25 @@
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E78182</FDTNS:Id>
-    <FDTNS:Name>SEATSOCC</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E7A182</FDTNS:Id>
+    <FDTNS:Name>PAYMENTSUM</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E6418A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F1C1CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -135,30 +135,90 @@
     <FDTNS:Texts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Belegte Plätze Economy Class</FDTNS:Text>
+      <FDTNS:Text>Akt. Buchungssumme</FDTNS:Text>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Occupied seats economy class</FDTNS:Text>
+      <FDTNS:Text>Booking total</FDTNS:Text>
      </FDTNS:Item>
     </FDTNS:Texts>
     <FDTNS:ShortTexts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Belegung Eco.</FDTNS:ShortText>
+      <FDTNS:ShortText>Akt. Summe</FDTNS:ShortText>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Occupied econ.</FDTNS:ShortText>
+      <FDTNS:ShortText>Total</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_SUM</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="A">Amount</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>17</FDTNS:ElementLength>
+   <FDTNS:ElementDecimals>2</FDTNS:ElementDecimals>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E7C182</FDTNS:Id>
+    <FDTNS:Name>SEATSMAX_B</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F1E1CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Maximale Belegung Business Class</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Maximum capacity business class</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Max. Belegung Bus.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Max. capacity bus.</FDTNS:ShortText>
      </FDTNS:Item>
     </FDTNS:ShortTexts>
     <FDTNS:SapscriptObject>
      <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SEATSOCC</FDTNS:Object>
+     <FDTNS:Object>S_SMAX_B</FDTNS:Object>
     </FDTNS:SapscriptObject>
    </FDTNS:AdminData>
    <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SEATSOCC</FDTNS:DdicTypename>
+   <FDTNS:DdicTypename>S_SMAX_B</FDTNS:DdicTypename>
    <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
    <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
    <FDTNS:ElementLength>10</FDTNS:ElementLength>
@@ -167,25 +227,25 @@
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E76182</FDTNS:Id>
-    <FDTNS:Name>SEATSMAX</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E7E182</FDTNS:Id>
+    <FDTNS:Name>SEATSOCC_B</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E6218A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F201CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -197,30 +257,30 @@
     <FDTNS:Texts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Maximale Belegung Economy Class</FDTNS:Text>
+      <FDTNS:Text>Belegte Plätze Business Class</FDTNS:Text>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Maximum capacity economy class</FDTNS:Text>
+      <FDTNS:Text>Occupied seats business class</FDTNS:Text>
      </FDTNS:Item>
     </FDTNS:Texts>
     <FDTNS:ShortTexts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Max. Belegung Eco.</FDTNS:ShortText>
+      <FDTNS:ShortText>Belegung Bus.</FDTNS:ShortText>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Max. capacity econ.</FDTNS:ShortText>
+      <FDTNS:ShortText>Occupied bus.</FDTNS:ShortText>
      </FDTNS:Item>
     </FDTNS:ShortTexts>
     <FDTNS:SapscriptObject>
      <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SEATSMAX</FDTNS:Object>
+     <FDTNS:Object>S_SOCC_B</FDTNS:Object>
     </FDTNS:SapscriptObject>
    </FDTNS:AdminData>
    <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SEATSMAX</FDTNS:DdicTypename>
+   <FDTNS:DdicTypename>S_SOCC_B</FDTNS:DdicTypename>
    <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
    <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
    <FDTNS:ElementLength>10</FDTNS:ElementLength>
@@ -229,25 +289,25 @@
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E74182</FDTNS:Id>
-    <FDTNS:Name>PLANETYPE</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E80182</FDTNS:Id>
+    <FDTNS:Name>SEATSMAX_F</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E6018A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F221CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -259,57 +319,1926 @@
     <FDTNS:Texts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Flugzeugtyp</FDTNS:Text>
+      <FDTNS:Text>Maximale Belegung First Class</FDTNS:Text>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Plane Type</FDTNS:Text>
+      <FDTNS:Text>Maximum capacity in first class</FDTNS:Text>
      </FDTNS:Item>
     </FDTNS:Texts>
     <FDTNS:ShortTexts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Flugzeugtyp</FDTNS:ShortText>
+      <FDTNS:ShortText>Max. Belegung 1st.</FDTNS:ShortText>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Plane Type</FDTNS:ShortText>
+      <FDTNS:ShortText>Max. capacity 1st</FDTNS:ShortText>
      </FDTNS:Item>
     </FDTNS:ShortTexts>
     <FDTNS:SapscriptObject>
      <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_PLANETYE</FDTNS:Object>
+     <FDTNS:Object>S_SMAX_F</FDTNS:Object>
     </FDTNS:SapscriptObject>
    </FDTNS:AdminData>
    <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_PLANETYE</FDTNS:DdicTypename>
+   <FDTNS:DdicTypename>S_SMAX_F</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E82182</FDTNS:Id>
+    <FDTNS:Name>SEATSOCC_F</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F241CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Belegte Plätze First Class</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Occupied seats in first class</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Belegung 1st.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Occupied 1st</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_SOCC_F</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_SOCC_F</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB858A0B5D90A18A</FDTNS:Id>
+    <FDTNS:Name>ZE_ADDED_NEW_TEST</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172456</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F5376DCE1D1</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:Text>Added Diff</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:ShortText>Added Diff</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
    <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
    <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementLength>255</FDTNS:ElementLength>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71ADC568901FA</FDTNS:Id>
+    <FDTNS:Name>ZT_SBOOK</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154543</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154556</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154556</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71F59C82C41FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:ShortText>SBOOK Table</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="T">Table</FDTNS:DataObjectType>
+   <FDTNS:StructureId>0242AC1100021EDBABB71DF6AD6141FA</FDTNS:StructureId>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6141FA</FDTNS:Id>
+    <FDTNS:Name>SBOOK</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135921FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Einzelflugbuchung</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Single Flight Booking</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Einzelflugbuchung</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>TB</FDTNS:Id>
+     <FDTNS:Object>SBOOK</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="S">Structure</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>SBOOK</FDTNS:DdicTypename>
+   <FDTNS:Elements>
+    <FDTNS:Item>
+     <FDTNS:Position>001</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6181FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>002</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD61A1FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>003</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD61C1FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>004</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD61E1FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>005</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6201FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>006</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6221FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>007</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6241FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>008</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6261FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>009</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6281FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>010</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD62A1FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>011</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD62C1FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>012</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD62E1FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>013</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6301FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>014</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6321FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>015</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6341FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>016</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6361FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>017</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD6381FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>018</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD63A1FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>019</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD63C1FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>020</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBABB71DF6AD63E1FA</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+   </FDTNS:Elements>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6181FA</FDTNS:Id>
+    <FDTNS:Name>CARRID</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E551356A1FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Fluggesellschaft</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Airline</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Fluggesellschaft</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Airline</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_CARR_ID</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CARR_ID</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>3</FDTNS:ElementLength>
    <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
   </FDTNS:DataObject>
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E72182</FDTNS:Id>
-    <FDTNS:Name>PRICE</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD61A1FA</FDTNS:Id>
+    <FDTNS:Name>CONNID</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest/>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E5E18A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBABB71E551356C1FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Verbindungs-Nummer</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Connection Number</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Flugnummer</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Flight Number</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_CONN_ID</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CONN_ID</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>4</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD61C1FA</FDTNS:Id>
+    <FDTNS:Name>FLDATE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E551356E1FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Datum des Fluges</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Flight Date</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Flugdatum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Date</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_DATE</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_DATE</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementTimepointType>1</FDTNS:ElementTimepointType>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD61E1FA</FDTNS:Id>
+    <FDTNS:Name>BOOKID</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135701FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Buchungsnummer</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Booking number</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Buchungsnummer</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Booking number</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_BOOK_ID</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_BOOK_ID</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>8</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6201FA</FDTNS:Id>
+    <FDTNS:Name>CUSTOMID</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135721FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Kundennummer</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Customer Number</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Kundennummer</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Customer Number</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_CUSTOMER</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CUSTOMER</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>8</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6221FA</FDTNS:Id>
+    <FDTNS:Name>CUSTTYPE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135741FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>G/P-Kunde</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>B/P customer</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>G/P-Kunde</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>B/P customer</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_CUSTTYPE</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CUSTTYPE</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>1</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6241FA</FDTNS:Id>
+    <FDTNS:Name>SMOKER</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135761FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Raucher</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Smoker</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Raucher</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Smoker</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_SMOKER</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="B">Boolean</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>2</FDTNS:AllowedComparisons>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6261FA</FDTNS:Id>
+    <FDTNS:Name>LUGGWEIGHT</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135781FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Gepäckgewicht</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Luggage Weight</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Gepäckgew.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Luggage Weight</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_LUGWEIGH</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="Q">Quantity</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>8</FDTNS:ElementLength>
+   <FDTNS:ElementDecimals>4</FDTNS:ElementDecimals>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6281FA</FDTNS:Id>
+    <FDTNS:Name>INVOICE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E551357A1FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Rechnungsstellung</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Invoice flag</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Rechnungsst.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Invoice pty.</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_INVFLAG</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_INVFLAG</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="B">Boolean</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>2</FDTNS:AllowedComparisons>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD62A1FA</FDTNS:Id>
+    <FDTNS:Name>CLASS</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E551357C1FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Flugklasse</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Class</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Klasse</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Class</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_CLASS</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CLASS</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>1</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD62C1FA</FDTNS:Id>
+    <FDTNS:Name>FORCURAM</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E551357E1FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Betrag (Fremdwährung)</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Amount (for.currency)</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Betrag</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Amount</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_F_CUR_PR</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_F_CUR_PR</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="A">Amount</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>15</FDTNS:ElementLength>
+   <FDTNS:ElementDecimals>2</FDTNS:ElementDecimals>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD62E1FA</FDTNS:Id>
+    <FDTNS:Name>LOCCURAM</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135801FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Betrag (Hauswährung)</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Amount (loc.currncy)</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Betrag</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Amount</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_L_CUR_PR</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_L_CUR_PR</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="A">Amount</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>15</FDTNS:ElementLength>
+   <FDTNS:ElementDecimals>2</FDTNS:ElementDecimals>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6301FA</FDTNS:Id>
+    <FDTNS:Name>ORDER_DATE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135821FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Buchungsdatum</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Posting date</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Buchungsdatum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Booking date</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_BDATE</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_BDATE</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementTimepointType>1</FDTNS:ElementTimepointType>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6321FA</FDTNS:Id>
+    <FDTNS:Name>COUNTER</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135841FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Verkaufsstelle</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Sales office</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Verkaufsstelle</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Sales office</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_COUNTNUM</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_COUNTNUM</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>8</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6341FA</FDTNS:Id>
+    <FDTNS:Name>AGENCYNUM</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135861FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Nummer des Reisebüros</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Travel Agency Number</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Reisebüronr.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Agency No.</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_AGNCYNUM</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_AGNCYNUM</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>8</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6361FA</FDTNS:Id>
+    <FDTNS:Name>CANCELLED</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135881FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Stornierungskennzeichen</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Cancelation flag</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Stornokennzeichen</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Cancelation flag</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_CANCEL</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CANCEL</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="B">Boolean</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>2</FDTNS:AllowedComparisons>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD6381FA</FDTNS:Id>
+    <FDTNS:Name>RESERVED</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E551358A1FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Reservierungskennzeichen</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Reservation flag</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>reserviert</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Reserved</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_RESERV</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_RESERV</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="B">Boolean</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>2</FDTNS:AllowedComparisons>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD63A1FA</FDTNS:Id>
+    <FDTNS:Name>PASSNAME</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E551358C1FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Passagiername</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Passenger Name</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Passagiername</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Passenger Name</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_PASSNAME</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_PASSNAME</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>25</FDTNS:ElementLength>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD63C1FA</FDTNS:Id>
+    <FDTNS:Name>PASSFORM</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E551358E1FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Anrede</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Form of address</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Anrede</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Title</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_FORM</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_FORM</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>15</FDTNS:ElementLength>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB71DF6AD63E1FA</FDTNS:Id>
+    <FDTNS:Name>PASSBIRTH</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154542</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154556</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154542</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154542</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB71E55135901FA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Pass. Geburtsdatum</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>DOB of Passenger</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Pass. Gebdatum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>DOB of Passeng.</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_BIRTHDAT</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_BIRTHDAT</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementTimepointType>1</FDTNS:ElementTimepointType>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2081B298178</FDTNS:Id>
+    <FDTNS:Name>ZS_SFLIGHT</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F0C1CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Flug</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Flight</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Flug</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Flight</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>TB</FDTNS:Id>
+     <FDTNS:Object>SFLIGHT</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="S">Structure</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>SFLIGHT</FDTNS:DdicTypename>
+   <FDTNS:Elements>
+    <FDTNS:Item>
+     <FDTNS:Position>001</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AB6178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>002</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AB8178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>003</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ABA178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>004</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ABC178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>005</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ABE178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>006</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC0178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>007</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC2178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>008</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC4178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>009</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC6178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>010</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC8178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>011</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ACA178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+    <FDTNS:Item>
+     <FDTNS:Position>012</FDTNS:Position>
+     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ACC178</FDTNS:ElementId>
+     <FDTNS:StructureId/>
+     <FDTNS:TableId/>
+    </FDTNS:Item>
+   </FDTNS:Elements>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625AB6178</FDTNS:Id>
+    <FDTNS:Name>CARRID</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4EF41CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Fluggesellschaft</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Airline</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Fluggesellschaft</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Airline</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_CARR_ID</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CARR_ID</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>3</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625AB8178</FDTNS:Id>
+    <FDTNS:Name>CONNID</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4EF61CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Verbindungs-Nummer</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Connection Number</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Flugnummer</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Flight Number</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_CONN_ID</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CONN_ID</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>4</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625ABA178</FDTNS:Id>
+    <FDTNS:Name>FLDATE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4EF81CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Datum des Fluges</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Flight Date</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Flugdatum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Date</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_DATE</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_DATE</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementTimepointType>1</FDTNS:ElementTimepointType>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625ABC178</FDTNS:Id>
+    <FDTNS:Name>PRICE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4EFA1CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -354,25 +2283,25 @@
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E70182</FDTNS:Id>
-    <FDTNS:Name>FLDATE</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625ABE178</FDTNS:Id>
+    <FDTNS:Name>PLANETYPE</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E5C18A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4EFC1CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -384,56 +2313,119 @@
     <FDTNS:Texts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Datum des Fluges</FDTNS:Text>
+      <FDTNS:Text>Flugzeugtyp</FDTNS:Text>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Flight Date</FDTNS:Text>
+      <FDTNS:Text>Plane Type</FDTNS:Text>
      </FDTNS:Item>
     </FDTNS:Texts>
     <FDTNS:ShortTexts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Flugdatum</FDTNS:ShortText>
+      <FDTNS:ShortText>Flugzeugtyp</FDTNS:ShortText>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Date</FDTNS:ShortText>
+      <FDTNS:ShortText>Plane Type</FDTNS:ShortText>
      </FDTNS:Item>
     </FDTNS:ShortTexts>
     <FDTNS:SapscriptObject>
      <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_DATE</FDTNS:Object>
+     <FDTNS:Object>S_PLANETYE</FDTNS:Object>
     </FDTNS:SapscriptObject>
    </FDTNS:AdminData>
    <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_DATE</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:DdicTypename>S_PLANETYE</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC0178</FDTNS:Id>
+    <FDTNS:Name>SEATSMAX</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4EFE1CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Maximale Belegung Economy Class</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Maximum capacity economy class</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Max. Belegung Eco.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Max. capacity econ.</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_SEATSMAX</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_SEATSMAX</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
    <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementTimepointType>1</FDTNS:ElementTimepointType>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
   </FDTNS:DataObject>
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E6E182</FDTNS:Id>
-    <FDTNS:Name>CONNID</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC2178</FDTNS:Id>
+    <FDTNS:Name>SEATSOCC</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E5A18A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F001CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -445,57 +2437,57 @@
     <FDTNS:Texts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Verbindungs-Nummer</FDTNS:Text>
+      <FDTNS:Text>Belegte Plätze Economy Class</FDTNS:Text>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Connection Number</FDTNS:Text>
+      <FDTNS:Text>Occupied seats economy class</FDTNS:Text>
      </FDTNS:Item>
     </FDTNS:Texts>
     <FDTNS:ShortTexts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Flugnummer</FDTNS:ShortText>
+      <FDTNS:ShortText>Belegung Eco.</FDTNS:ShortText>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Flight Number</FDTNS:ShortText>
+      <FDTNS:ShortText>Occupied econ.</FDTNS:ShortText>
      </FDTNS:Item>
     </FDTNS:ShortTexts>
     <FDTNS:SapscriptObject>
      <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_CONN_ID</FDTNS:Object>
+     <FDTNS:Object>S_SEATSOCC</FDTNS:Object>
     </FDTNS:SapscriptObject>
    </FDTNS:AdminData>
    <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_CONN_ID</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>4</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+   <FDTNS:DdicTypename>S_SEATSOCC</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
   </FDTNS:DataObject>
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E6C182</FDTNS:Id>
-    <FDTNS:Name>CARRID</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC4178</FDTNS:Id>
+    <FDTNS:Name>PAYMENTSUM</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E5818A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F021CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -507,34 +2499,327 @@
     <FDTNS:Texts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Fluggesellschaft</FDTNS:Text>
+      <FDTNS:Text>Akt. Buchungssumme</FDTNS:Text>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Airline</FDTNS:Text>
+      <FDTNS:Text>Booking total</FDTNS:Text>
      </FDTNS:Item>
     </FDTNS:Texts>
     <FDTNS:ShortTexts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Fluggesellschaft</FDTNS:ShortText>
+      <FDTNS:ShortText>Akt. Summe</FDTNS:ShortText>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Airline</FDTNS:ShortText>
+      <FDTNS:ShortText>Total</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_SUM</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="A">Amount</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>17</FDTNS:ElementLength>
+   <FDTNS:ElementDecimals>2</FDTNS:ElementDecimals>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC6178</FDTNS:Id>
+    <FDTNS:Name>SEATSMAX_B</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F041CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Maximale Belegung Business Class</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Maximum capacity business class</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Max. Belegung Bus.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Max. capacity bus.</FDTNS:ShortText>
      </FDTNS:Item>
     </FDTNS:ShortTexts>
     <FDTNS:SapscriptObject>
      <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_CARR_ID</FDTNS:Object>
+     <FDTNS:Object>S_SMAX_B</FDTNS:Object>
     </FDTNS:SapscriptObject>
    </FDTNS:AdminData>
    <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_CARR_ID</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>3</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+   <FDTNS:DdicTypename>S_SMAX_B</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC8178</FDTNS:Id>
+    <FDTNS:Name>SEATSOCC_B</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F061CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Belegte Plätze Business Class</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Occupied seats business class</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Belegung Bus.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Occupied bus.</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_SOCC_B</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_SOCC_B</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625ACA178</FDTNS:Id>
+    <FDTNS:Name>SEATSMAX_F</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F081CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Maximale Belegung First Class</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Maximum capacity in first class</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Max. Belegung 1st.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Max. capacity 1st</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_SMAX_F</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_SMAX_F</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84E2B625ACC178</FDTNS:Id>
+    <FDTNS:Name>SEATSOCC_F</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F0A1CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Belegte Plätze First Class</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Occupied seats in first class</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Belegung 1st.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Occupied 1st</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_SOCC_F</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_SOCC_F</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB84ED212275417C</FDTNS:Id>
+    <FDTNS:Name>ZT_SFLIGHT</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F281CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:Text>SFLIGHT</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:ShortText>SFLIGHT</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="T">Table</FDTNS:DataObjectType>
+   <FDTNS:StructureId>0242AC1100021EDBAB852FEB40E68182</FDTNS:StructureId>
   </FDTNS:DataObject>
   <FDTNS:DataObject>
    <FDTNS:AdminData>
@@ -543,21 +2828,21 @@
     <FDTNS:Name>SFLIGHT</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E7018A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F261CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -671,25 +2956,25 @@
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E82182</FDTNS:Id>
-    <FDTNS:Name>SEATSOCC_F</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E6C182</FDTNS:Id>
+    <FDTNS:Name>CARRID</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E6E18A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F0E1CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -701,893 +2986,180 @@
     <FDTNS:Texts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Belegte Plätze First Class</FDTNS:Text>
+      <FDTNS:Text>Fluggesellschaft</FDTNS:Text>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Occupied seats in first class</FDTNS:Text>
+      <FDTNS:Text>Airline</FDTNS:Text>
      </FDTNS:Item>
     </FDTNS:Texts>
     <FDTNS:ShortTexts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Belegung 1st.</FDTNS:ShortText>
+      <FDTNS:ShortText>Fluggesellschaft</FDTNS:ShortText>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Occupied 1st</FDTNS:ShortText>
+      <FDTNS:ShortText>Airline</FDTNS:ShortText>
      </FDTNS:Item>
     </FDTNS:ShortTexts>
     <FDTNS:SapscriptObject>
      <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SOCC_F</FDTNS:Object>
+     <FDTNS:Object>S_CARR_ID</FDTNS:Object>
     </FDTNS:SapscriptObject>
    </FDTNS:AdminData>
    <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SOCC_F</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E7A182</FDTNS:Id>
-    <FDTNS:Name>PAYMENTSUM</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E6618A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Akt. Buchungssumme</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Booking total</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Akt. Summe</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Total</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SUM</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="A">Amount</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>17</FDTNS:ElementLength>
-   <FDTNS:ElementDecimals>2</FDTNS:ElementDecimals>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E7C182</FDTNS:Id>
-    <FDTNS:Name>SEATSMAX_B</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E6818A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Maximale Belegung Business Class</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Maximum capacity business class</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Max. Belegung Bus.</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Max. capacity bus.</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SMAX_B</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SMAX_B</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB858A0B5D90A18A</FDTNS:Id>
-    <FDTNS:Name>ZE_ADDED_NEW_TEST</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503162651</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162711</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503162711</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest/>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162711</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858D39AC1D018A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu/>
-      <FDTNS:Text>Added Diff</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu/>
-      <FDTNS:ShortText>Added Diff</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CARR_ID</FDTNS:DdicTypename>
    <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
    <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>255</FDTNS:ElementLength>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E7E182</FDTNS:Id>
-    <FDTNS:Name>SEATSOCC_B</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E6A18A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Belegte Plätze Business Class</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Occupied seats business class</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Belegung Bus.</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Occupied bus.</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SOCC_B</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SOCC_B</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84ED212275417C</FDTNS:Id>
-    <FDTNS:Name>ZT_SFLIGHT</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503155203</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503155436</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E7218A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu/>
-      <FDTNS:Text>SFLIGHT</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu/>
-      <FDTNS:ShortText>SFLIGHT</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="T">Table</FDTNS:DataObjectType>
-   <FDTNS:StructureId>0242AC1100021EDBAB852FEB40E68182</FDTNS:StructureId>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB852FEB40E80182</FDTNS:Id>
-    <FDTNS:Name>SEATSMAX_F</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160622</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160622</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E6C18A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Maximale Belegung First Class</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Maximum capacity in first class</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Max. Belegung 1st.</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Max. capacity 1st</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SMAX_F</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SMAX_F</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625ACC178</FDTNS:Id>
-    <FDTNS:Name>SEATSOCC_F</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E5418A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Belegte Plätze First Class</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Occupied seats in first class</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Belegung 1st.</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Occupied 1st</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SOCC_F</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SOCC_F</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625ACA178</FDTNS:Id>
-    <FDTNS:Name>SEATSMAX_F</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E5218A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Maximale Belegung First Class</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Maximum capacity in first class</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Max. Belegung 1st.</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Max. capacity 1st</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SMAX_F</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SMAX_F</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC8178</FDTNS:Id>
-    <FDTNS:Name>SEATSOCC_B</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E5018A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Belegte Plätze Business Class</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Occupied seats business class</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Belegung Bus.</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Occupied bus.</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SOCC_B</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SOCC_B</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC6178</FDTNS:Id>
-    <FDTNS:Name>SEATSMAX_B</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E4E18A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Maximale Belegung Business Class</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Maximum capacity business class</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Max. Belegung Bus.</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Max. capacity bus.</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SMAX_B</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SMAX_B</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC4178</FDTNS:Id>
-    <FDTNS:Name>PAYMENTSUM</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E4C18A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Akt. Buchungssumme</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Booking total</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Akt. Summe</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Total</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SUM</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="A">Amount</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>17</FDTNS:ElementLength>
-   <FDTNS:ElementDecimals>2</FDTNS:ElementDecimals>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC2178</FDTNS:Id>
-    <FDTNS:Name>SEATSOCC</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E4A18A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Belegte Plätze Economy Class</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Occupied seats economy class</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Belegung Eco.</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Occupied econ.</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SEATSOCC</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SEATSOCC</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625AC0178</FDTNS:Id>
-    <FDTNS:Name>SEATSMAX</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E4818A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Maximale Belegung Economy Class</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Maximum capacity economy class</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Max. Belegung Eco.</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Max. capacity econ.</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_SEATSMAX</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_SEATSMAX</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625ABE178</FDTNS:Id>
-    <FDTNS:Name>PLANETYPE</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E4618A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Flugzeugtyp</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Plane Type</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Flugzeugtyp</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Plane Type</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_PLANETYE</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_PLANETYE</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementLength>3</FDTNS:ElementLength>
    <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
   </FDTNS:DataObject>
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625ABC178</FDTNS:Id>
-    <FDTNS:Name>PRICE</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E6E182</FDTNS:Id>
+    <FDTNS:Name>CONNID</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E4418A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F101CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Verbindungs-Nummer</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Connection Number</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Flugnummer</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Flight Number</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_CONN_ID</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_CONN_ID</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>4</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E70182</FDTNS:Id>
+    <FDTNS:Name>FLDATE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F121CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Datum des Fluges</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Flight Date</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Flugdatum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Date</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_DATE</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_DATE</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementTimepointType>1</FDTNS:ElementTimepointType>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E72182</FDTNS:Id>
+    <FDTNS:Name>PRICE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F141CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -1632,25 +3204,25 @@
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625ABA178</FDTNS:Id>
-    <FDTNS:Name>FLDATE</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E74182</FDTNS:Id>
+    <FDTNS:Name>PLANETYPE</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E4218A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F161CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -1662,56 +3234,119 @@
     <FDTNS:Texts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Datum des Fluges</FDTNS:Text>
+      <FDTNS:Text>Flugzeugtyp</FDTNS:Text>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Flight Date</FDTNS:Text>
+      <FDTNS:Text>Plane Type</FDTNS:Text>
      </FDTNS:Item>
     </FDTNS:Texts>
     <FDTNS:ShortTexts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Flugdatum</FDTNS:ShortText>
+      <FDTNS:ShortText>Flugzeugtyp</FDTNS:ShortText>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Date</FDTNS:ShortText>
+      <FDTNS:ShortText>Plane Type</FDTNS:ShortText>
      </FDTNS:Item>
     </FDTNS:ShortTexts>
     <FDTNS:SapscriptObject>
      <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_DATE</FDTNS:Object>
+     <FDTNS:Object>S_PLANETYE</FDTNS:Object>
     </FDTNS:SapscriptObject>
    </FDTNS:AdminData>
    <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_DATE</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:DdicTypename>S_PLANETYE</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E76182</FDTNS:Id>
+    <FDTNS:Name>SEATSMAX</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F181CA</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Maximale Belegung Economy Class</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Maximum capacity economy class</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Max. Belegung Eco.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Max. capacity econ.</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>S_SEATSMAX</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>S_SEATSMAX</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
    <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
-   <FDTNS:ElementTimepointType>1</FDTNS:ElementTimepointType>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
   </FDTNS:DataObject>
   <FDTNS:DataObject>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625AB8178</FDTNS:Id>
-    <FDTNS:Name>CONNID</FDTNS:Name>
+    <FDTNS:Id>0242AC1100021EDBAB852FEB40E78182</FDTNS:Id>
+    <FDTNS:Name>SEATSOCC</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154914</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E4018A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F1A1CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -1723,332 +3358,35 @@
     <FDTNS:Texts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Verbindungs-Nummer</FDTNS:Text>
+      <FDTNS:Text>Belegte Plätze Economy Class</FDTNS:Text>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Connection Number</FDTNS:Text>
+      <FDTNS:Text>Occupied seats economy class</FDTNS:Text>
      </FDTNS:Item>
     </FDTNS:Texts>
     <FDTNS:ShortTexts>
      <FDTNS:Item>
       <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Flugnummer</FDTNS:ShortText>
+      <FDTNS:ShortText>Belegung Eco.</FDTNS:ShortText>
      </FDTNS:Item>
      <FDTNS:Item>
       <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Flight Number</FDTNS:ShortText>
+      <FDTNS:ShortText>Occupied econ.</FDTNS:ShortText>
      </FDTNS:Item>
     </FDTNS:ShortTexts>
     <FDTNS:SapscriptObject>
      <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_CONN_ID</FDTNS:Object>
+     <FDTNS:Object>S_SEATSOCC</FDTNS:Object>
     </FDTNS:SapscriptObject>
    </FDTNS:AdminData>
    <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_CONN_ID</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>4</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+   <FDTNS:DdicTypename>S_SEATSOCC</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>6</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>10</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyPositive>X</FDTNS:ElementOnlyPositive>
   </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2B625AB6178</FDTNS:Id>
-    <FDTNS:Name>CARRID</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154913</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154913</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E3E18A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Fluggesellschaft</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Airline</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Fluggesellschaft</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Airline</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>DE</FDTNS:Id>
-     <FDTNS:Object>S_CARR_ID</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>S_CARR_ID</FDTNS:DdicTypename>
-   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
-   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
-   <FDTNS:ElementLength>3</FDTNS:ElementLength>
-   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
-  </FDTNS:DataObject>
-  <FDTNS:DataObject>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB84E2081B298178</FDTNS:Id>
-    <FDTNS:Name>ZS_SFLIGHT</FDTNS:Name>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503154914</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503154928</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E5618A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
-    <FDTNS:Texts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:Text>Flug</FDTNS:Text>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:Text>Flight</FDTNS:Text>
-     </FDTNS:Item>
-    </FDTNS:Texts>
-    <FDTNS:ShortTexts>
-     <FDTNS:Item>
-      <FDTNS:Langu>D</FDTNS:Langu>
-      <FDTNS:ShortText>Flug</FDTNS:ShortText>
-     </FDTNS:Item>
-     <FDTNS:Item>
-      <FDTNS:Langu>E</FDTNS:Langu>
-      <FDTNS:ShortText>Flight</FDTNS:ShortText>
-     </FDTNS:Item>
-    </FDTNS:ShortTexts>
-    <FDTNS:SapscriptObject>
-     <FDTNS:Id>TB</FDTNS:Id>
-     <FDTNS:Object>SFLIGHT</FDTNS:Object>
-    </FDTNS:SapscriptObject>
-   </FDTNS:AdminData>
-   <FDTNS:DataObjectType FixedValue="S">Structure</FDTNS:DataObjectType>
-   <FDTNS:DdicTypename>SFLIGHT</FDTNS:DdicTypename>
-   <FDTNS:Elements>
-    <FDTNS:Item>
-     <FDTNS:Position>001</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AB6178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>002</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AB8178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>003</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ABA178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>004</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ABC178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>005</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ABE178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>006</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC0178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>007</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC2178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>008</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC4178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>009</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC6178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>010</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625AC8178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>011</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ACA178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-    <FDTNS:Item>
-     <FDTNS:Position>012</FDTNS:Position>
-     <FDTNS:ElementId>0242AC1100021EDBAB84E2B625ACC178</FDTNS:ElementId>
-     <FDTNS:StructureId/>
-     <FDTNS:TableId/>
-    </FDTNS:Item>
-   </FDTNS:Elements>
-  </FDTNS:DataObject>
-  <FDTNS:Expression>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB850F002D75C17E</FDTNS:Id>
-    <FDTNS:Name/>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503155930</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503155955</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E8218A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
-    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
-   </FDTNS:AdminData>
-   <FDTNS:ExpressionTypeId>0000EEEE003000FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
-   <FDTNS:ResultDataObject>0000ACAC010000FFFFFFFFFFFFFFFFFF</FDTNS:ResultDataObject>
-   <FDTNS:RelVersion/>
-   <FDTNS:UsableInRel/>
-   <FDTNS:TrueActions>
-    <FDTNS:Actions/>
-    <FDTNS:DataObjectAssignments/>
-    <FDTNS:ValueAssignments/>
-    <FDTNS:Expressions>
-     <FDTNS:Item>
-      <FDTNS:Position>0001</FDTNS:Position>
-      <FDTNS:ExpressionId>0242AC1100021EDBAB84E8D7F208817C</FDTNS:ExpressionId>
-      <FDTNS:ChangeMode/>
-     </FDTNS:Item>
-    </FDTNS:Expressions>
-    <FDTNS:ExpressionAssignments/>
-    <FDTNS:Rules/>
-   </FDTNS:TrueActions>
-  </FDTNS:Expression>
-  <FDTNS:Expression>
-   <FDTNS:AdminData>
-    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
-    <FDTNS:Id>0242AC1100021EDBAB8504DA79BF017D</FDTNS:Id>
-    <FDTNS:Name/>
-    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
-    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503155930</FDTNS:CreationTimestamp>
-    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
-    <FDTNS:Versions>
-     <FDTNS:Item>
-      <FDTNS:Version>000001</FDTNS:Version>
-      <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503155955</FDTNS:Timestamp>
-      <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
-      <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
-      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
-      <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E8018A</FDTNS:OversId>
-      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
-      <FDTNS:Versioning/>
-      <FDTNS:VersioningType/>
-     </FDTNS:Item>
-    </FDTNS:Versions>
-    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
-    <FDTNS:Local>X</FDTNS:Local>
-    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
-    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
-   </FDTNS:AdminData>
-   <FDTNS:ExpressionTypeId>0000EEEE003000FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
-   <FDTNS:ResultDataObject>0000ACAC010000FFFFFFFFFFFFFFFFFF</FDTNS:ResultDataObject>
-   <FDTNS:RelVersion/>
-   <FDTNS:UsableInRel/>
-   <FDTNS:TrueActions>
-    <FDTNS:Actions/>
-    <FDTNS:DataObjectAssignments/>
-    <FDTNS:ValueAssignments/>
-    <FDTNS:Expressions/>
-    <FDTNS:ExpressionAssignments>
-     <FDTNS:Item>
-      <FDTNS:Position>0001</FDTNS:Position>
-      <FDTNS:ExpressionId>0242AC1100021EDBAB84FC3B8DBC017D</FDTNS:ExpressionId>
-      <FDTNS:TargetDataObject>0242AC1100021EDBAB84ED212275417C</FDTNS:TargetDataObject>
-      <FDTNS:ChangeMode>I</FDTNS:ChangeMode>
-     </FDTNS:Item>
-    </FDTNS:ExpressionAssignments>
-    <FDTNS:Rules/>
-   </FDTNS:TrueActions>
-  </FDTNS:Expression>
   <FDTNS:Expression>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
@@ -2056,21 +3394,21 @@
     <FDTNS:Name>ZDL_SFLIGHT</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503155517</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503155547</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172456</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E7E18A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F5376DC41D1</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -2114,21 +3452,21 @@
     <FDTNS:Name>ZTO_READ_SFLIGHT</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503155051</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503155436</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172455</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E7418A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F39B4F2A1CA</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -2182,6 +3520,161 @@
     </FDTNS:Item>
    </FDTNS:Conditions>
   </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB8504DA79BF017D</FDTNS:Id>
+    <FDTNS:Name/>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172456</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F5376DC61D1</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE003000FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0000ACAC010000FFFFFFFFFFFFFFFFFF</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:TrueActions>
+    <FDTNS:Actions/>
+    <FDTNS:DataObjectAssignments/>
+    <FDTNS:ValueAssignments/>
+    <FDTNS:Expressions/>
+    <FDTNS:ExpressionAssignments>
+     <FDTNS:Item>
+      <FDTNS:Position>0001</FDTNS:Position>
+      <FDTNS:ExpressionId>0242AC1100021EDBAB84FC3B8DBC017D</FDTNS:ExpressionId>
+      <FDTNS:TargetDataObject>0242AC1100021EDBAB84ED212275417C</FDTNS:TargetDataObject>
+      <FDTNS:ChangeMode>I</FDTNS:ChangeMode>
+     </FDTNS:Item>
+    </FDTNS:ExpressionAssignments>
+    <FDTNS:Rules/>
+   </FDTNS:TrueActions>
+  </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAB850F002D75C17E</FDTNS:Id>
+    <FDTNS:Name/>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210503172456</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAB868F5376DC81D1</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE003000FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0000ACAC010000FFFFFFFFFFFFFFFFFF</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:TrueActions>
+    <FDTNS:Actions/>
+    <FDTNS:DataObjectAssignments/>
+    <FDTNS:ValueAssignments/>
+    <FDTNS:Expressions>
+     <FDTNS:Item>
+      <FDTNS:Position>0001</FDTNS:Position>
+      <FDTNS:ExpressionId>0242AC1100021EDBAB84E8D7F208817C</FDTNS:ExpressionId>
+      <FDTNS:ChangeMode/>
+     </FDTNS:Item>
+    </FDTNS:Expressions>
+    <FDTNS:ExpressionAssignments/>
+    <FDTNS:Rules/>
+   </FDTNS:TrueActions>
+  </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBABB716D15C7E21FA</FDTNS:Id>
+    <FDTNS:Name>ZDL_SBOOK</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210505154441</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210505154612</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210505154612</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210505154612</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBABB72097BC3301FC</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="APPL">Application</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:ShortText>Test SBOOK</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE002200FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0242AC1100021EDBABB71ADC568901FA</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:TableName>SBOOK</FDTNS:TableName>
+   <FDTNS:DynamicDatabaseViewId/>
+   <FDTNS:Single/>
+   <FDTNS:FieldConditions/>
+   <FDTNS:AggregationFunction/>
+   <FDTNS:AggregationFieldname/>
+   <FDTNS:FieldMapping/>
+   <FDTNS:ParameterBinding/>
+   <FDTNS:SelectMode/>
+  </FDTNS:Expression>
   <FDTNS:Ruleset>
    <FDTNS:AdminData>
     <FDTNS:ApplicationId>0242AC1100021EDBAB84DA5D3648A178</FDTNS:ApplicationId>
@@ -2189,21 +3682,21 @@
     <FDTNS:Name>ZRS_SFLIGHT</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503155634</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503155955</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172456</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E8618A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F5376DCC1D1</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
@@ -2277,21 +3770,21 @@
     <FDTNS:Name>ZF_SFLIGHT</FDTNS:Name>
     <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
-    <FDTNS:CreationTimestamp>20210503160234</FDTNS:CreationTimestamp>
+    <FDTNS:CreationTimestamp>20210503172456</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210503162511</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210503172456</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
       <FDTNS:User>DEVELOPER</FDTNS:User>
-      <FDTNS:Timestamp>20210503160338</FDTNS:Timestamp>
+      <FDTNS:Timestamp>20210503172456</FDTNS:Timestamp>
       <FDTNS:State FixedValue="A">Active</FDTNS:State>
-      <FDTNS:Trrequest>$X2_PATTERN</FDTNS:Trrequest>
+      <FDTNS:Trrequest>$X2P0000000000000036</FDTNS:Trrequest>
       <FDTNS:Trversion>000001</FDTNS:Trversion>
-      <FDTNS:Trtimestamp>20210503162511</FDTNS:Trtimestamp>
+      <FDTNS:Trtimestamp>20210503172456</FDTNS:Trtimestamp>
       <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
       <FDTNS:Trclient/>
-      <FDTNS:OversId>0242AC1100021EDBAB858430A3E8418A</FDTNS:OversId>
+      <FDTNS:OversId>0242AC1100021EDBAB868F5376DCA1D1</FDTNS:OversId>
       <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
       <FDTNS:Versioning/>
       <FDTNS:VersioningType/>
