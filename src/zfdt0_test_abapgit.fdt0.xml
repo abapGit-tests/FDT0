@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <abapGit version="v1.0.0" serializer="LCL_OBJECT_FDT0" serializer_version="v1.0.0">
- <FDTNS:Fdt xmlns:FDTNS="http://sap.com/fdt/transport" AP="OFF" BRFplusInitialVersion="1.13 " BRFplusSchema="http://sap.corp/fdt/External.xsd" BRFplusVersion="1.13 " Client="001" Date="20210526" EntireApplication="True" SAPRelease="754" Server="vhcala4hci" SourceExportReqID="$X1P0000000000000059" SystemID="A4H" Time="153918" User="DEVELOPER">
+ <FDTNS:Fdt xmlns:FDTNS="http://sap.com/fdt/transport" AP="OFF" BRFplusInitialVersion="1.13 " BRFplusSchema="http://sap.corp/fdt/External.xsd" BRFplusVersion="1.13 " Client="001" Date="20210526" EntireApplication="False" SAPRelease="754" Server="vhcala4hci" SourceExportReqID="$X1P0000000000000061" SystemID="A4H" Time="154452" User="DEVELOPER">
   <FDTNS:ComponentReleases>
    <FDTNS:ComponentRelease>
     <FDTNS:Component>SAP_BASIS</FDTNS:Component>
@@ -61,7 +61,7 @@
     <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
     <FDTNS:CreationTimestamp>20210526153816</FDTNS:CreationTimestamp>
     <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
-    <FDTNS:ChangeTimestamp>20210526153819</FDTNS:ChangeTimestamp>
+    <FDTNS:ChangeTimestamp>20210526154223</FDTNS:ChangeTimestamp>
     <FDTNS:Versions>
      <FDTNS:Item>
       <FDTNS:Version>000001</FDTNS:Version>
