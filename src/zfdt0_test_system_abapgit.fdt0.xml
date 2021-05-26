@@ -1,0 +1,3898 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FDT0" serializer_version="v1.0.0">
+ <FDTNS:Fdt xmlns:FDTNS="http://sap.com/fdt/transport" AP="OFF" BRFplusInitialVersion="1.13 " BRFplusSchema="http://sap.corp/fdt/External.xsd" BRFplusVersion="1.13 " Client="001" Date="20210526" EntireApplication="True" SAPRelease="754" Server="vhcala4hci" SourceExportReqID="$X1P0000000000000068" SystemID="A4H" Time="160301" User="DEVELOPER">
+  <FDTNS:ComponentReleases>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>SAP_BASIS</FDTNS:Component>
+    <FDTNS:Release>754</FDTNS:Release>
+    <FDTNS:Version>0002</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>SAP_ABA</FDTNS:Component>
+    <FDTNS:Release>75E</FDTNS:Release>
+    <FDTNS:Version>0002</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>SAP_GWFND</FDTNS:Component>
+    <FDTNS:Release>754</FDTNS:Release>
+    <FDTNS:Version>0002</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>SAP_UI</FDTNS:Component>
+    <FDTNS:Release>754</FDTNS:Release>
+    <FDTNS:Version>0004</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>ST-PI</FDTNS:Component>
+    <FDTNS:Release>740</FDTNS:Release>
+    <FDTNS:Version>0013</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>SAP_BW</FDTNS:Component>
+    <FDTNS:Release>754</FDTNS:Release>
+    <FDTNS:Version>0002</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>UIBAS001</FDTNS:Component>
+    <FDTNS:Release>500</FDTNS:Release>
+    <FDTNS:Version>0002</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>MDG_FND</FDTNS:Component>
+    <FDTNS:Release>804</FDTNS:Release>
+    <FDTNS:Version>0002</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>S4FND</FDTNS:Component>
+    <FDTNS:Release>104</FDTNS:Release>
+    <FDTNS:Version>0002</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+   <FDTNS:ComponentRelease>
+    <FDTNS:Component>DMIS</FDTNS:Component>
+    <FDTNS:Release>2011_1_731</FDTNS:Release>
+    <FDTNS:Version>0016</FDTNS:Version>
+   </FDTNS:ComponentRelease>
+  </FDTNS:ComponentReleases>
+  <FDTNS:Application>
+   <FDTNS:AdminData>
+    <FDTNS:Id>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:Id>
+    <FDTNS:Name>ZFDT0_TEST_SYSTEM_ABAPGIT</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526155628</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526155628</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526155628</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC75DCA8CFC66D2</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>BRFplus: Systemanwendung</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>BRFplus System Application</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>BRFplus: Systemanw.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>BRFplus System Appl</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ApplicationComponent>BC-SRV-BR</FDTNS:ApplicationComponent>
+   <FDTNS:SoftwareComponent>LOCAL</FDTNS:SoftwareComponent>
+   <FDTNS:DevelopmentPackage>$Z_ABAPGIT_FDT0</FDTNS:DevelopmentPackage>
+   <FDTNS:TextDepTypeDefault>1</FDTNS:TextDepTypeDefault>
+   <FDTNS:DocuDepTypeDefault>1</FDTNS:DocuDepTypeDefault>
+  </FDTNS:Application>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174FE6D2</FDTNS:Id>
+    <FDTNS:Name>MONTH</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB106DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Monat</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Month</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Monat</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Month</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>FDT_MONTH</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>2</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174FC6D2</FDTNS:Id>
+    <FDTNS:Name>CALENDAR_WEEK</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB0E6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Kalenderwoche</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Calendar Week</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Woche</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Week</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>FDT_CALENDAR_WEEK</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>2</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174FA6D2</FDTNS:Id>
+    <FDTNS:Name>QUARTER_OF_YEAR</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB0C6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Quartal des Jahres</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Quarter of Year</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>FDT_QUARTER_OF_YEAR</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>1</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174F86D2</FDTNS:Id>
+    <FDTNS:Name>DAY_OF_MONTH</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB0A6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Tag des Monats</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Day of Month</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Tag des Monats</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Day of Month</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>FDT_DAY_OF_MONTH</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>2</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174F66D2</FDTNS:Id>
+    <FDTNS:Name>DAY_OF_WEEK</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB086DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Day of Week</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>FDT_DAY_OF_WEEK</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>1</FDTNS:ElementLength>
+   <FDTNS:ElementOnlyUppercase>X</FDTNS:ElementOnlyUppercase>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174F46D2</FDTNS:Id>
+    <FDTNS:Name>TIMEPOINT</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB066DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Zeitpunkt</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Timepoint</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Zeitpunkt</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Timepoint</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Default element for timepoint (date, time, time stamp)</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174F26D2</FDTNS:Id>
+    <FDTNS:Name>TEXT</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB046DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Text</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Text</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Text</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Text</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Default element for text</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>255</FDTNS:ElementLength>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174F06D2</FDTNS:Id>
+    <FDTNS:Name>QUANTITY</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB026DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Menge</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Quantity</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Menge</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Quantity</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Default element for quantity</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:ElementType FixedValue="Q">Quantity</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>31</FDTNS:ElementLength>
+   <FDTNS:ElementDecimals>10</FDTNS:ElementDecimals>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174EE6D2</FDTNS:Id>
+    <FDTNS:Name>NUMBER</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB006DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Zahl</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Number</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Zahl</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Number</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Default element for number</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:ElementType FixedValue="N">Number</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>31</FDTNS:ElementLength>
+   <FDTNS:ElementDecimals>10</FDTNS:ElementDecimals>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175246D2</FDTNS:Id>
+    <FDTNS:Name>BACKGROUND_PROCESSING</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB126DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Hintergrundverarbeitung</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Background Processing</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>SYBATCH</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>SYBATCH</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="B">Boolean</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>2</FDTNS:AllowedComparisons>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174E86D2</FDTNS:Id>
+    <FDTNS:Name>BOOLEAN</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160201</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160201</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160201</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7769EEAD846E0</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Boolescher Wert</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Boolean</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Boolescher Wert</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Boolean</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Default element for boolean</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:ElementType FixedValue="B">Boolean</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>2</FDTNS:AllowedComparisons>
+   <FDTNS:ValueListIds>
+    <FDTNS:Item>0242AC1100021EDBAFC75C06174EA6D2</FDTNS:Item>
+    <FDTNS:Item>0242AC1100021EDBAFC75C06174EC6D2</FDTNS:Item>
+   </FDTNS:ValueListIds>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174E66D2</FDTNS:Id>
+    <FDTNS:Name>AMOUNT</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAFE6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Betrag</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Amount</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Betrag</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Amount</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Default element for amount</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:ElementType FixedValue="A">Amount</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>31</FDTNS:ElementLength>
+   <FDTNS:ElementDecimals>10</FDTNS:ElementDecimals>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174E46D2</FDTNS:Id>
+    <FDTNS:Name>ACTIONS</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAFC6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Aktionen</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Actions</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktionen</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Actions</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Default table for action IDs</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="T">Table</FDTNS:DataObjectType>
+   <FDTNS:ElementId>0242AC1100021EDBAFC75C06174D86D2</FDTNS:ElementId>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175266D2</FDTNS:Id>
+    <FDTNS:Name>DATE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB146DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>aktuelles Datum</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Current Date</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>aktuelles Datum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Current Date</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>SYDATUM</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>SYDATUM</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementTimepointType>1</FDTNS:ElementTimepointType>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175286D2</FDTNS:Id>
+    <FDTNS:Name>TIME</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB166DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Uhrzeit</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Time</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Uhrzeit</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Time</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>SYUZEIT</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>SYUZEIT</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementTimepointType>2</FDTNS:ElementTimepointType>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061752A6D2</FDTNS:Id>
+    <FDTNS:Name>TIMESTAMP</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB186DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Zeitstempel</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Time Stamp</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Zeitstempel</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Time Stamp</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>TIMESTAMP</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>TIMESTAMP</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementTimepointType>4</FDTNS:ElementTimepointType>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061752C6D2</FDTNS:Id>
+    <FDTNS:Name>USER_NAME</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB1A6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Benutzername</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>User Name</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Benutzername</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>User Name</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:SapscriptObject>
+     <FDTNS:Id>DE</FDTNS:Id>
+     <FDTNS:Object>SYUNAME</FDTNS:Object>
+    </FDTNS:SapscriptObject>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:DdicTypename>SYUNAME</FDTNS:DdicTypename>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>12</FDTNS:ElementLength>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061752E6D2</FDTNS:Id>
+    <FDTNS:Name>DATE_TIME</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB1C6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:Text>Date &amp; Time</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:ShortText>Date &amp; Time</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:ElementType FixedValue="P">Timepoint</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>4</FDTNS:AllowedComparisons>
+   <FDTNS:ElementTimepointType>3</FDTNS:ElementTimepointType>
+  </FDTNS:DataObject>
+  <FDTNS:DataObject>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174D86D2</FDTNS:Id>
+    <FDTNS:Name>ACTION</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAFA6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Aktion</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Action</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktion</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Action</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Default element for an action ID</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:DataObjectType FixedValue="E">Element</FDTNS:DataObjectType>
+   <FDTNS:ElementType FixedValue="T">Text</FDTNS:ElementType>
+   <FDTNS:AllowedComparisons>3</FDTNS:AllowedComparisons>
+   <FDTNS:ElementLength>32</FDTNS:ElementLength>
+  </FDTNS:DataObject>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175226D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_LOOP</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAF86DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Schleife</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Loop</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Schleife</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Loop</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type for loop processing</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_LOOP</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_LOOP</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_LOOP_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175206D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_TABLE_OPERATION</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAF66DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Tabellenoperation</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Table Operation</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Tabellenoperation</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Table Operation</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:Documentation>Expression Type for Table Operations</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_TABLE_OPERATION</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_TABLE_OPERATION</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_TABLE_OPERATION_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061751E6D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_BRMS_CONNECTOR</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAF46DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Geschäftsregel-Managementsystem-Konnektor</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Business Rule Management System Connector</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>GRMS-Anbindung</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>BRMS Connector</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type to connect to external Business Rule Management Systems</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_BRMS_CONNECTOR</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_BRMS_CONNECTOR</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_BRMS_CONNECTOR_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061751C6D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_RULE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAF26DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Regel</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Rule</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Regel</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Rule</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type Rule: IF...THEN...ELSE...</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_RULE</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_RULE</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_RULE_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_RULE_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061751A6D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_FLOW</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAF06DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Fluss</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Flow</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Fluss</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Flow</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_FLOW</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_FLOW</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_FLOW_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175186D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_DB_LOOKUP</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAEE6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Datenbankabfrage</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Database Lookup</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Datenbankabfrage</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>DB Lookup</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type for database selects</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_DB_LOOKUP</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_DB_LOOKUP</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_DB_LOOKUP_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175166D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_RANDOM_NUMBER</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAEC6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Zufallszahl</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Random Number</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Zufallszahl</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Random Number</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type to return a random number or true/false with a defined distribution</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_RANDOM</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_RANDOM</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_RANDOM_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_RANDOM_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175146D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_DYNAMIC_EXPRESSION</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAEA6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Dynamischer Ausdruck</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Dynamic Expression</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Dynamischer Ausdruck</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Dynamic Expression</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type for dynamic expression processing</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_DYNAMIC_EXPRESSION</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_DYNAMIC_EXPRESSION</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_DYNAMIC_EXPRSN_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_DYNAMIC_EXPRESSION_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175126D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_FUNCTION_CALL</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAE86DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Funktionsaufruf</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Function Call</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Funktionsaufruf</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Function Call</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type to nest BRFplus function calls</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_FUNCTION_CALL</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_FUNCTION_CALL</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_FUNCTION_CALL_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_FUNCTION_CALL_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175106D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_CALL_PROCEDURE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAE66DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Prozeduraufruf</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Procedure Call</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Prozeduraufruf</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Procedure Call</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression type used for calling function modules or public static methods of an ABAP OO class</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_STATIC_METHOD</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_STATIC_METHOD</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_STATIC_METHOD_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_STATIC_METHOD_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174DA6D2</FDTNS:Id>
+    <FDTNS:Name>ACTN_MESSAGE_LOG</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160105</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160105</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FACC6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Meldung protokollieren (Aktion)</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Log Message (Action)</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Protokollnachricht</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Log Message</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Action Type for writing message logs</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_ACTN_MESSAGE_LOG</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_ACTN_MESSAGE_LOG</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_ACTN_MESSAGE_LOG_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType>X</FDTNS:IsActionType>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174DC6D2</FDTNS:Id>
+    <FDTNS:Name>ACTN_CALL_PROCEDURE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160105</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160105</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FACE6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Prozedur aufrufen (Aktion)</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Call Procedure (Action)</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Prozedur aufrufen</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Call Procedure</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Action Type for calling function modules or public static methods of an ABAP OO class</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_ACTN_STATIC_METHOD</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_ACTN_STATIC_METHOD</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_STATIC_METHOD_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType>X</FDTNS:IsActionType>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174DE6D2</FDTNS:Id>
+    <FDTNS:Name>ACTN_EMAIL</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAD06DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>E-Mail senden (Aktion)</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Send Email (Action)</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>E-Mail senden</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Send Email</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Action Type for sending emails</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_ACTN_EMAIL</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_ACTN_EMAIL</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_ACTN_EMAIL_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType>X</FDTNS:IsActionType>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174E06D2</FDTNS:Id>
+    <FDTNS:Name>ACTY_START_WORKFLOW</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAD26DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Workflow starten (Aktion)</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Start Workflow (Action)</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Workflow starten</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Start Workflow</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Action Type for starting workflow</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_ACTN_START_WORKFLOW</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_ACTN_START_WORKFLOW</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_ACTN_START_WORKFLOW_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType>X</FDTNS:IsActionType>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174E26D2</FDTNS:Id>
+    <FDTNS:Name>ACTY_RAISE_WORKFLOW_EVENT</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAD46DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Workflow-Ereignis auslösen (Aktion)</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Raise Workflow Event (Action)</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Workflow-Ereignis</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Workflow Event</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Action Type for raising a workflow event</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_ACTN_RAISE_EVENT</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_ACTN_RAISE_EVENT</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass/>
+   <FDTNS:UiClass>CL_FDT_ACTN_RAISE_EVT_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType>X</FDTNS:IsActionType>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175006D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_SEARCH_TREE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAD66DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Suchbaum</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Search Tree</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Suchbaum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Search Tree</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type for condition trees</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_SEARCH_TREE</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_SEARCH_TREE</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_SEARCH_TREE_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_SEARCH_TREE_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175026D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_DECISION_TREE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAD86DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Entscheidungsbaum</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Decision Tree</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Entscheidungsbaum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Decision Tree</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type for binary condition trees</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_DECISION_TREE</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_DECISION_TREE</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_DECISION_TREE_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_DECISION_TREE_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175046D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_DECISION_TABLE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FADA6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Entscheidungstabelle</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Decision Table</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Entscheidungstabelle</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Decision Table</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type for Decision Tables</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_DECISION_TABLE</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_DECISION_TABLE</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_DECISION_TABLE_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_DECISION_TABLE_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175066D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_CONSTANT</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FADC6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Konstante</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Constant</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Konstante</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Constant</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type for definition of constants</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_CONSTANT</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_CONSTANT</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_CONSTANT_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_CONSTANT_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175086D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_RANGE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FADE6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Wertebereich</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Value Range</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Wertebereich</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Value Range</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type Value Range</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_RANGE</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_RANGE</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_RANGE_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_RANGE_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061750A6D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_CASE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAE06DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Fall</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Case</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Fall</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Case</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type for matching of test and case parameters</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_CASE</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_CASE</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_CASE_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_CASE_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061750C6D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_BOOLEAN</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAE26DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Boolescher Wert</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Boolean</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Boolescher Wert</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Boolean</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type for boolean conditions</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_BOOLEAN</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_BOOLEAN</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_BOOLEAN_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_BOOLEAN_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:ExpressionType>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061750E6D2</FDTNS:Id>
+    <FDTNS:Name>EXTY_FORMULA</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FAE46DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Formel</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Formula</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Formel</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Formula</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>2</FDTNS:DocumentationDependencyType>
+    <FDTNS:Documentations>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Documentation>Expression Type to define formulas supporting mathematical, boolean and other operations</FDTNS:Documentation>
+     </FDTNS:Item>
+    </FDTNS:Documentations>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionClass>
+    <FDTNS:Class>CL_FDT_FORMULA</FDTNS:Class>
+    <FDTNS:Interface>IF_FDT_FORMULA</FDTNS:Interface>
+   </FDTNS:ExpressionClass>
+   <FDTNS:ExpressionTexts>
+    <FDTNS:CreationText/>
+    <FDTNS:TsCreationText/>
+    <FDTNS:ChangeText/>
+    <FDTNS:TsChangeText/>
+    <FDTNS:DisplayText/>
+    <FDTNS:TsDisplayText/>
+    <FDTNS:DeletionText/>
+    <FDTNS:TsDeletionText/>
+   </FDTNS:ExpressionTexts>
+   <FDTNS:QueryClass>CL_FDT_FORMULA_QUERY</FDTNS:QueryClass>
+   <FDTNS:UiClass>CL_FDT_FORMULA_UI</FDTNS:UiClass>
+   <FDTNS:DataExchangeClass/>
+   <FDTNS:IsActionType/>
+   <FDTNS:TransportObjects/>
+  </FDTNS:ExpressionType>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174EC6D2</FDTNS:Id>
+    <FDTNS:Name>TRUE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160201</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160201</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160201</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7769EEAD826E0</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Wahr</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>True</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Wahr</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>True</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE001000FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C06174E86D2</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:Value>X</FDTNS:Value>
+  </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06174EA6D2</FDTNS:Id>
+    <FDTNS:Name>FALSE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160201</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160201</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160201</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7769EEAD806E0</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Falsch</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>False</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Falsch</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>False</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE001000FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C06174E86D2</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:Value/>
+  </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175306D2</FDTNS:Id>
+    <FDTNS:Name>BACKGROUND_PROCESSING</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB1E6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Hintergrundverarbeitung</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Background processing</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Hintergrundverarb.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Backgr. processing</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE001500FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C06175246D2</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:CallType>S</FDTNS:CallType>
+   <FDTNS:Class>CL_FDT_OBJ_SYSTEM_VARIABLES</FDTNS:Class>
+   <FDTNS:Method>IS_BATCH_PROCESSING</FDTNS:Method>
+   <FDTNS:Mappings>
+    <FDTNS:Item>
+     <FDTNS:Position>001</FDTNS:Position>
+     <FDTNS:Parameter>RV_BATCH</FDTNS:Parameter>
+     <FDTNS:ParamCompPath/>
+     <FDTNS:Id>0242AC1100021EDBAFC75C06175246D2</FDTNS:Id>
+     <FDTNS:IdCompPath/>
+     <FDTNS:TopId/>
+     <FDTNS:SValue>
+      <FDTNS:Value/>
+      <FDTNS:Supplement/>
+      <FDTNS:NoneAp/>
+     </FDTNS:SValue>
+     <FDTNS:MoveType>V</FDTNS:MoveType>
+    </FDTNS:Item>
+   </FDTNS:Mappings>
+   <FDTNS:SubExpressionIds/>
+  </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175326D2</FDTNS:Id>
+    <FDTNS:Name>CURRENT_DATE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB206DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Aktuelles Datum</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Current Date</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktuelles Datum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Current Date</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE001500FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C06175266D2</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:CallType>S</FDTNS:CallType>
+   <FDTNS:Class>CL_FDT_OBJ_SYSTEM_VARIABLES</FDTNS:Class>
+   <FDTNS:Method>GET_CURRENT_DATE</FDTNS:Method>
+   <FDTNS:Mappings>
+    <FDTNS:Item>
+     <FDTNS:Position>001</FDTNS:Position>
+     <FDTNS:Parameter>RV_DATE</FDTNS:Parameter>
+     <FDTNS:ParamCompPath/>
+     <FDTNS:Id>0242AC1100021EDBAFC75C06175266D2</FDTNS:Id>
+     <FDTNS:IdCompPath/>
+     <FDTNS:TopId/>
+     <FDTNS:SValue>
+      <FDTNS:Value/>
+      <FDTNS:Supplement/>
+      <FDTNS:NoneAp/>
+     </FDTNS:SValue>
+     <FDTNS:MoveType>D</FDTNS:MoveType>
+    </FDTNS:Item>
+   </FDTNS:Mappings>
+   <FDTNS:SubExpressionIds/>
+  </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175346D2</FDTNS:Id>
+    <FDTNS:Name>CURRENT_TIME</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB226DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Aktuelle Uhrzeit</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Current Time</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktuelle Uhrzeit</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Current Time</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE001500FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C06175286D2</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:CallType>S</FDTNS:CallType>
+   <FDTNS:Class>CL_FDT_OBJ_SYSTEM_VARIABLES</FDTNS:Class>
+   <FDTNS:Method>GET_CURRENT_TIME</FDTNS:Method>
+   <FDTNS:Mappings>
+    <FDTNS:Item>
+     <FDTNS:Position>001</FDTNS:Position>
+     <FDTNS:Parameter>RV_TIME</FDTNS:Parameter>
+     <FDTNS:ParamCompPath/>
+     <FDTNS:Id>0242AC1100021EDBAFC75C06175286D2</FDTNS:Id>
+     <FDTNS:IdCompPath/>
+     <FDTNS:TopId/>
+     <FDTNS:SValue>
+      <FDTNS:Value/>
+      <FDTNS:Supplement/>
+      <FDTNS:NoneAp/>
+     </FDTNS:SValue>
+     <FDTNS:MoveType>T</FDTNS:MoveType>
+    </FDTNS:Item>
+   </FDTNS:Mappings>
+   <FDTNS:SubExpressionIds/>
+  </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175366D2</FDTNS:Id>
+    <FDTNS:Name>CURRENT_TIMESTAMP</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB246DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Aktueller Zeitstempel</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Current Timestamp</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktuell. Zeitstempel</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Current Timestamp</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE001500FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C061752A6D2</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:CallType>S</FDTNS:CallType>
+   <FDTNS:Class>CL_FDT_OBJ_SYSTEM_VARIABLES</FDTNS:Class>
+   <FDTNS:Method>GET_CURRENT_TIMESTAMP</FDTNS:Method>
+   <FDTNS:Mappings>
+    <FDTNS:Item>
+     <FDTNS:Position>004</FDTNS:Position>
+     <FDTNS:Parameter>RV_TIMEPOINT</FDTNS:Parameter>
+     <FDTNS:ParamCompPath>TIMESTAMP</FDTNS:ParamCompPath>
+     <FDTNS:Id>0242AC1100021EDBAFC75C061752A6D2</FDTNS:Id>
+     <FDTNS:IdCompPath/>
+     <FDTNS:TopId/>
+     <FDTNS:SValue>
+      <FDTNS:Value/>
+      <FDTNS:Supplement/>
+      <FDTNS:NoneAp/>
+     </FDTNS:SValue>
+     <FDTNS:MoveType>P</FDTNS:MoveType>
+    </FDTNS:Item>
+   </FDTNS:Mappings>
+   <FDTNS:SubExpressionIds/>
+  </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175386D2</FDTNS:Id>
+    <FDTNS:Name>CURRENT_USER</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160106</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160106</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC7727E7FB266DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Aktueller Benutzer</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Current User</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktueller Benutzer</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Current User</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE001500FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C061752C6D2</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:CallType>S</FDTNS:CallType>
+   <FDTNS:Class>CL_FDT_OBJ_SYSTEM_VARIABLES</FDTNS:Class>
+   <FDTNS:Method>GET_CURRENT_USER</FDTNS:Method>
+   <FDTNS:Mappings>
+    <FDTNS:Item>
+     <FDTNS:Position>001</FDTNS:Position>
+     <FDTNS:Parameter>RV_USER</FDTNS:Parameter>
+     <FDTNS:ParamCompPath/>
+     <FDTNS:Id>0242AC1100021EDBAFC75C061752C6D2</FDTNS:Id>
+     <FDTNS:IdCompPath/>
+     <FDTNS:TopId/>
+     <FDTNS:SValue>
+      <FDTNS:Value/>
+      <FDTNS:Supplement/>
+      <FDTNS:NoneAp/>
+     </FDTNS:SValue>
+     <FDTNS:MoveType>V</FDTNS:MoveType>
+    </FDTNS:Item>
+   </FDTNS:Mappings>
+   <FDTNS:SubExpressionIds/>
+  </FDTNS:Expression>
+  <FDTNS:Expression>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061753A6D2</FDTNS:Id>
+    <FDTNS:Name>CURRENT_LANGUAGE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160107</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160107</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC772928E5406DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="1">Independent of language and version</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:Text>Logon Language</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu/>
+      <FDTNS:ShortText>Logon Language</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ExpressionTypeId>0000EEEE001500FFFFFFFFFFFFFFFFFF</FDTNS:ExpressionTypeId>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C06174F26D2</FDTNS:ResultDataObject>
+   <FDTNS:RelVersion/>
+   <FDTNS:UsableInRel/>
+   <FDTNS:CallType>S</FDTNS:CallType>
+   <FDTNS:Class>CL_FDT_OBJ_SYSTEM_VARIABLES</FDTNS:Class>
+   <FDTNS:Method>GET_CURRENT_LANGU</FDTNS:Method>
+   <FDTNS:Mappings>
+    <FDTNS:Item>
+     <FDTNS:Position>001</FDTNS:Position>
+     <FDTNS:Parameter>RV_LANGU</FDTNS:Parameter>
+     <FDTNS:ParamCompPath/>
+     <FDTNS:Id>0242AC1100021EDBAFC75C06174F26D2</FDTNS:Id>
+     <FDTNS:IdCompPath/>
+     <FDTNS:TopId/>
+     <FDTNS:SValue>
+      <FDTNS:Value/>
+      <FDTNS:Supplement/>
+      <FDTNS:NoneAp/>
+     </FDTNS:SValue>
+     <FDTNS:MoveType>V</FDTNS:MoveType>
+    </FDTNS:Item>
+   </FDTNS:Mappings>
+   <FDTNS:SubExpressionIds/>
+  </FDTNS:Expression>
+  <FDTNS:Function>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061753C6D2</FDTNS:Id>
+    <FDTNS:Name>BACKGROUND_PROCESSING</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160107</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160107</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC772928E5426DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Gibt &quot;wahr&quot; zurück, wenn die Hintergrundverarbeitung aktiv ist</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Returns true if background processing is active</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Hintergrundverarb.</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Backgr. processing</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ContextDataObjects/>
+   <FDTNS:DbContextDataObjects/>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C06175246D2</FDTNS:ResultDataObject>
+   <FDTNS:ExpressionId>0242AC1100021EDBAFC75C06175306D2</FDTNS:ExpressionId>
+   <FDTNS:ContextClass/>
+   <FDTNS:FilterId/>
+   <FDTNS:FunctionMode>1</FDTNS:FunctionMode>
+   <FDTNS:NewContext>X</FDTNS:NewContext>
+  </FDTNS:Function>
+  <FDTNS:Function>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C061753E6D2</FDTNS:Id>
+    <FDTNS:Name>CURRENT_DATE</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160107</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160107</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC772928E5446DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Liefert das aktuelle Datum</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Returns the current date</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktuelles Datum</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Current date</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ContextDataObjects/>
+   <FDTNS:DbContextDataObjects/>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C06175266D2</FDTNS:ResultDataObject>
+   <FDTNS:ExpressionId>0242AC1100021EDBAFC75C06175326D2</FDTNS:ExpressionId>
+   <FDTNS:ContextClass/>
+   <FDTNS:FilterId/>
+   <FDTNS:FunctionMode>1</FDTNS:FunctionMode>
+   <FDTNS:NewContext>X</FDTNS:NewContext>
+  </FDTNS:Function>
+  <FDTNS:Function>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175406D2</FDTNS:Id>
+    <FDTNS:Name>CURRENT_TIME</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160107</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160107</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC772928E5466DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Liefert die aktuelle Uhrzeit</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Returns the current time</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktuelle Uhrzeit</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Current time</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ContextDataObjects/>
+   <FDTNS:DbContextDataObjects/>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C06175286D2</FDTNS:ResultDataObject>
+   <FDTNS:ExpressionId>0242AC1100021EDBAFC75C06175346D2</FDTNS:ExpressionId>
+   <FDTNS:ContextClass/>
+   <FDTNS:FilterId/>
+   <FDTNS:FunctionMode>1</FDTNS:FunctionMode>
+   <FDTNS:NewContext>X</FDTNS:NewContext>
+  </FDTNS:Function>
+  <FDTNS:Function>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175426D2</FDTNS:Id>
+    <FDTNS:Name>CURRENT_TIMESTAMP</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160107</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160107</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC772928E5486DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Liefert den aktuellen Zeitstempel</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Returns the current timestamp</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktuell. Zeitstempel</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Current timestamp</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ContextDataObjects/>
+   <FDTNS:DbContextDataObjects/>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C061752A6D2</FDTNS:ResultDataObject>
+   <FDTNS:ExpressionId>0242AC1100021EDBAFC75C06175366D2</FDTNS:ExpressionId>
+   <FDTNS:ContextClass/>
+   <FDTNS:FilterId/>
+   <FDTNS:FunctionMode>1</FDTNS:FunctionMode>
+   <FDTNS:NewContext>X</FDTNS:NewContext>
+  </FDTNS:Function>
+  <FDTNS:Function>
+   <FDTNS:AdminData>
+    <FDTNS:ApplicationId>0242AC1100021EDBAFC758FC4FB9E6CF</FDTNS:ApplicationId>
+    <FDTNS:Id>0242AC1100021EDBAFC75C06175446D2</FDTNS:Id>
+    <FDTNS:Name>CURRENT_USER</FDTNS:Name>
+    <FDTNS:SystemObject FixedValue="X">TRUE</FDTNS:SystemObject>
+    <FDTNS:CreationUser>DEVELOPER</FDTNS:CreationUser>
+    <FDTNS:CreationTimestamp>20210526155604</FDTNS:CreationTimestamp>
+    <FDTNS:ChangeUser>DEVELOPER</FDTNS:ChangeUser>
+    <FDTNS:ChangeTimestamp>20210526160107</FDTNS:ChangeTimestamp>
+    <FDTNS:Versions>
+     <FDTNS:Item>
+      <FDTNS:Version>000001</FDTNS:Version>
+      <FDTNS:User>DEVELOPER</FDTNS:User>
+      <FDTNS:Timestamp>20210526160107</FDTNS:Timestamp>
+      <FDTNS:State FixedValue="A">Active</FDTNS:State>
+      <FDTNS:Trrequest/>
+      <FDTNS:Trversion>000001</FDTNS:Trversion>
+      <FDTNS:Trtimestamp>20210526160107</FDTNS:Trtimestamp>
+      <FDTNS:Trsysid>A4H</FDTNS:Trsysid>
+      <FDTNS:Trclient/>
+      <FDTNS:OversId>0242AC1100021EDBAFC772928E54A6DE</FDTNS:OversId>
+      <FDTNS:CustomerChange>X</FDTNS:CustomerChange>
+      <FDTNS:Versioning/>
+      <FDTNS:VersioningType/>
+     </FDTNS:Item>
+    </FDTNS:Versions>
+    <FDTNS:AccessLevel FixedValue="GLOBAL">Global</FDTNS:AccessLevel>
+    <FDTNS:Local>X</FDTNS:Local>
+    <FDTNS:TextDependencyType FixedValue="2">Language dependent but not version dependent</FDTNS:TextDependencyType>
+    <FDTNS:Texts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:Text>Liefert den aktuellen Benutzer</FDTNS:Text>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:Text>Returns the current user</FDTNS:Text>
+     </FDTNS:Item>
+    </FDTNS:Texts>
+    <FDTNS:ShortTexts>
+     <FDTNS:Item>
+      <FDTNS:Langu>D</FDTNS:Langu>
+      <FDTNS:ShortText>Aktueller Benutzer</FDTNS:ShortText>
+     </FDTNS:Item>
+     <FDTNS:Item>
+      <FDTNS:Langu>E</FDTNS:Langu>
+      <FDTNS:ShortText>Current user</FDTNS:ShortText>
+     </FDTNS:Item>
+    </FDTNS:ShortTexts>
+    <FDTNS:DocumentationDependencyType>1</FDTNS:DocumentationDependencyType>
+   </FDTNS:AdminData>
+   <FDTNS:ContextDataObjects/>
+   <FDTNS:DbContextDataObjects/>
+   <FDTNS:ResultDataObject>0242AC1100021EDBAFC75C061752C6D2</FDTNS:ResultDataObject>
+   <FDTNS:ExpressionId>0242AC1100021EDBAFC75C06175386D2</FDTNS:ExpressionId>
+   <FDTNS:ContextClass/>
+   <FDTNS:FilterId/>
+   <FDTNS:FunctionMode>1</FDTNS:FunctionMode>
+   <FDTNS:NewContext>X</FDTNS:NewContext>
+  </FDTNS:Function>
+ </FDTNS:Fdt>
+</abapGit>
